@@ -1,0 +1,95 @@
+/* fonts */
+@font-face {
+  font-family: "Neulis Alt Bold";
+  src: url(assets/fonts/Neulis/NeulisAlt-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Neulis Alt Regular";
+  src: url(assets/fonts/Neulis/NeulisAlt-Regular.otf) format("opentype");
+}
+
+body {
+  font-family: Neulis Alt Regular;
+}
+
+/* nav link rulesets */
+.nav-link {
+  color: #00392c;
+}
+
+.nav-link:hover {
+  color: #97d700;
+}
+
+#title {
+  font-family: Neulis Alt Bold;
+}
+
+h1,
+h2 {
+  font-family: Neulis Alt Bold;
+  font-size: 3rem;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #97d700 !important;
+}
+
+/* header */
+#header {
+  color: #00392c;
+}
+
+#unlockOpBtn {
+  background-color: #97d700;
+  color: #00392c;
+}
+
+/* 1st section */
+#firstSection {
+  background-color: #97d700;
+  color: #00392c;
+}
+
+#firstSection #firstIcon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#linqUpBtn {
+  color: #97d700;
+  background-color: #00392c;
+}
+
+/* 2nd section */
+#secondSection {
+  padding: 200px;
+}
+
+#getStart {
+  color: white;
+  background-color: #00392c;
+}
+
+/* 5th section */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300392c' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  align-self: last baseline !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300392c' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  align-self: last baseline !important;
+}
+
+/* FOOTER */
+
+#footer {
+  color: #00392c;
+  background-color: #97d700;
+
+  a {
+    color: #00392c;
+  }
+}

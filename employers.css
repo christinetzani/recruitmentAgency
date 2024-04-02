@@ -1,0 +1,203 @@
+/* @colors */
+@import url("./assets/colors.scss");
+
+/* fonts */
+@font-face {
+  font-family: "Neulis Alt Bold";
+  src: url(assets/fonts/Neulis/NeulisAlt-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Neulis Alt Regular";
+  src: url(./assets/fonts/Neulis/NeulisAlt-Regular.otf) format("opentype");
+}
+
+body {
+  font-family: Neulis Alt Regular;
+}
+
+/* header */
+#header {
+  color: #00392c;
+}
+
+#title {
+  font-family: Neulis Alt Bold;
+}
+
+h1,
+h2 {
+  font-family: Neulis Alt Bold;
+  font-size: 3rem;
+}
+
+#unlockOpBtn {
+  background-color: #97d700;
+  color: #00392c;
+  font-family: Neulis Alt Regular;
+}
+
+/* candidates page */
+
+/* 1st section | different for each page */
+#firstSection {
+  background-color: #97d700;
+  color: #00392c;
+}
+
+#firstSectionEmployers {
+  background-color: #00392c;
+  color: #97d700;
+}
+
+#firstSection #firstIcon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#linqUpBtn {
+  width: 75%;
+  color: #97d700;
+  background-color: #00392c;
+}
+
+/* 2nd section */
+#secondSection {
+  padding-top: 200px;
+}
+
+#getStart {
+  color: white;
+  background-color: #00392c;
+}
+
+/* nav link colors */
+.nav-link.active {
+  border-bottom: 2px solid #97d700 !important;
+}
+
+/* employers page */
+
+#bookCallBtn {
+  width: 75%;
+  background-color: #97d700;
+  color: #00392c;
+}
+
+#employersSubtext {
+  color: #cef3c7;
+}
+
+#secondSectionEmployers {
+  background-color: #ffffff;
+  color: #00392c;
+  padding-bottom: 10rem;
+}
+
+.employersSecondFlexbox {
+  background-color: #cef3c7;
+  border-radius: 40px;
+  text-align: start;
+  height: auto;
+  width: 350;
+  align-items: baseline;
+}
+
+#thirdSectionEmployers {
+  background-color: #97d700;
+  color: #00392c;
+  padding: 10rem;
+  padding-bottom: 5rem;
+}
+
+#industries {
+  background-color: #97d700;
+  color: #00392c;
+
+  .business-pill {
+    background-color: #cef3c7;
+    color: #00392c;
+    border:none;
+    text-overflow: inherit;
+  }
+
+}
+
+/* nav link rulesets */
+.nav-link {
+  color: #00392c;
+  
+}
+
+.nav-link:hover {
+  color: #97d700;
+}
+
+.employersThirdFlexbox {
+  background-color: #00392c;
+  color: #97d700;
+  text-align: start;
+  border-radius: 40px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+.thirdSectionEmployersSubtext {
+  color: #cef3c7;
+}
+
+.iconContainer {
+  background-color: #cef3c7;
+  height: 60px;
+  width: auto;
+  padding: 1rem;
+}
+
+
+/* FOOTER */
+
+#footer {
+  color: #00392c;
+  background-color: #97d700;
+
+  a {
+    color: #00392c;
+  }
+
+}
+
+/* fourth section CSS rules */
+#fourthSectionEmployers  {
+  background-color: #ffffff;
+  color: #00392c;
+
+  .employersTile{
+    background-color: #cef3c7;
+    border-radius: 40px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+  }
+
+
+}
+
+/* form CSS rules */
+#formSection {
+  color: #00392c;
+  background-color: #00392c;
+  
+  #formContainer {
+    background-color: #cef3c7;
+  }
+
+  #formSendButton {
+    background-color: #97d700;
+  }
+
+  
+
+
+}
